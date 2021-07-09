@@ -1,7 +1,7 @@
 #credit to Gangetsha Lyx for the font Mine-Sweeper and to Sizenko Alexander for digit-7-mono
 
 '''
-MINESWEEPER by Lael Nissim Israel
+MINESWEEPER by Lael Israel
 
 character keys:
 '-' unopened cell
@@ -23,6 +23,8 @@ import random
 import time
 
 # Constants
+HAVE_FONTS = False     # set this to True if you have the .ttf files!
+
 REFRESH_RATE    = 60
 CELL_SIZE       = 34 # The size of each cell in pixels
 TEXT_SPACE      = 100 # The space dedicated to the timer and the bombs left at the top
